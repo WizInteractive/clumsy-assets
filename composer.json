@@ -1,5 +1,5 @@
 {
-    "name": "clumsy/assets",
+    "name": "wizclumsy/assets",
     "description": "Laravel asset loader",
     "keywords": ["laravel", "assets", "javascript", "json", "css"],
     "license": "MIT",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Clumsy\\Assets\\": "src/"
+            "Wizclumsy\\Assets\\": "src/"
         }
     },
     "extra": {
