@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Assets\Support\Types;
+namespace Wizclumsy\Assets\Support\Types;
 
 use Closure;
 use Exception;

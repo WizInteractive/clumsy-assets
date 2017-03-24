@@ -1,10 +1,10 @@
 <?php
 
-namespace Clumsy\Assets;
+namespace Wizclumsy\Assets;
 
-use Clumsy\Assets\Asset;
-use Clumsy\Assets\Http\Middleware\PrintAssets;
-use Clumsy\Assets\Support\Types\Asset as SingleAsset;
+use Wizclumsy\Assets\Asset;
+use Wizclumsy\Assets\Http\Middleware\PrintAssets;
+use Wizclumsy\Assets\Support\Types\Asset as SingleAsset;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\ServiceProvider;
 

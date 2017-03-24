@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Assets\Http\Middleware;
+namespace Wizclumsy\Assets\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

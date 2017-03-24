@@ -1,11 +1,11 @@
 <?php
 
-namespace Clumsy\Assets;
+namespace Wizclumsy\Assets;
 
 use Closure;
-use Clumsy\Assets\Support\Container;
-use Clumsy\Assets\Support\Exceptions\UnknownAssetException;
-use Clumsy\Assets\Support\Types\Asset as SingleAsset;
+use Wizclumsy\Assets\Support\Container;
+use Wizclumsy\Assets\Support\Exceptions\UnknownAssetException;
+use Wizclumsy\Assets\Support\Types\Asset as SingleAsset;
 use Illuminate\Foundation\Application;
 
 class Asset

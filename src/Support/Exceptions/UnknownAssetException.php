@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Assets\Support\Exceptions;
+namespace Wizclumsy\Assets\Support\Exceptions;
 
 class UnknownAssetException extends \RuntimeException
 {

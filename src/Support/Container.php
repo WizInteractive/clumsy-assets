@@ -1,10 +1,10 @@
 <?php
 
-namespace Clumsy\Assets\Support;
+namespace Wizclumsy\Assets\Support;
 
 use Illuminate\Foundation\Application;
-use Clumsy\Assets\Support\Types\Json;
-use Clumsy\Assets\Support\Exceptions\UnknownAssetTypeException;
+use Wizclumsy\Assets\Support\Types\Json;
+use Wizclumsy\Assets\Support\Exceptions\UnknownAssetTypeException;
 
 class Container
 {
@@ -184,7 +184,7 @@ class Container
 
     protected function getAssetClassName($type)
     {
-        return '\\Clumsy\\Assets\\Support\\Types\\'.studly_case($type);
+        return '\\Wizclumsy\\Assets\\Support\\Types\\'.studly_case($type);
     }
 
     protected function clear()
